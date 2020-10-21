@@ -4,4 +4,4 @@ const messageBox = document.querySelector('messageBox');
 
 submitButton.addEventListener('click', () => {
     document.getElementById("messages").value = messageBox;	
-});
+});  
