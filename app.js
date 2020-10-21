@@ -1,7 +1,7 @@
 const submitButton = document.querySelector('button');
-const messageBox = document.querySelector('messageBox');
-// const messagesP = document.getElementById('messages');
+const messageInput = document.getElementById('messageInput');
+const messageDisplay = document.getElementById('lastMessage');
 
 submitButton.addEventListener('click', () => {
-    document.getElementById("messages").value = messageBox;	
+    messageDisplay.textContent = messageInput.value;
 });  
